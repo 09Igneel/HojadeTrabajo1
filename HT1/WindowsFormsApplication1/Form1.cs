@@ -25,5 +25,55 @@ namespace WindowsFormsApplication1
 
             Resultado.Text = "El resultado es: " + Convert.ToString(raiz);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String string1 = in1.Text;
+            int[] valores = new int[5] { 0, 0, 0, 0, 0 };
+
+            for (int i = 0; i < string1.Length; i++)
+            {
+                if ((Convert.ToChar(string1[i])) == 'a' || (Convert.ToChar(string1[i])) == 'A' || (Convert.ToChar(string1[i])) == 'á' || (Convert.ToChar(string1[i])) == 'Á')
+                {
+                    valores[0] = 1;
+
+                }
+                else if ((Convert.ToChar(string1[i])) == 'e' || (Convert.ToChar(string1[i])) == 'E' || (Convert.ToChar(string1[i])) == 'é' || (Convert.ToChar(string1[i])) == 'É')
+                {
+                    valores[1] = 2;
+
+                }
+                else if ((Convert.ToChar(string1[i])) == 'i' || (Convert.ToChar(string1[i])) == 'I' || (Convert.ToChar(string1[i])) == 'í' || (Convert.ToChar(string1[i])) == 'Í')
+                {
+                    valores[2] = 3;
+
+                }
+                else if ((Convert.ToChar(string1[i])) == 'o' || (Convert.ToChar(string1[i])) == 'O' || (Convert.ToChar(string1[i])) == 'ó' || (Convert.ToChar(string1[i])) == 'Ó')
+                {
+                    valores[3] = 4;
+
+                }
+                else if ((Convert.ToChar(string1[i])) == 'u' || (Convert.ToChar(string1[i])) == 'U' || (Convert.ToChar(string1[i])) == 'ú' || (Convert.ToChar(string1[i])) == 'Ú')
+                {
+                    valores[4] = 5;
+
+                }
+            }
+
+            int suma = 0;
+            foreach (int c in valores)
+            {
+                suma += c;
+            }
+
+            if (suma == 15)
+            {
+                Resultado.Text = "Resultado: Cumple";
+            }
+            else
+            {
+                Resultado.Text = "Resultado: No Cumple";
+            }
+        }
     }
 }
