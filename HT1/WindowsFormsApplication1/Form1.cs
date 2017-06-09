@@ -86,7 +86,7 @@ namespace WindowsFormsApplication1
                 invertida = invertida + string1.Substring(i, 1);
             }
 
-            Resultado.Text = "Resultado: " + invertida.ToString();
+            Resultado.Text = "Resultado: " + invertida.ToString() + " Carnet: 201403975";
         }
 
         private void button4_Click(object sender, EventArgs e)
