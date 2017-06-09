@@ -1,0 +1,10 @@
+¿Qué entiende como "commit"?
+Es la accion de comprometer, respaldar o asegurar las versiones de un proyecto, y que estas se guarden en 
+un repositorio para que esten disponibles si se llegaran a necesitar y utilizar. 
+
+¿Qué entiende como "merge"?
+Es la accion de fusionar los cambios que se realizan en las ramas que existen dentro de nuestro proyecto.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+Pull es la accion de bajar los cambios que han sido guardados en el repositorio sobre un proyecto, y Push es
+la accion de guarldar los cambios que realizamos al proyecto en nuestro repositorio.
