@@ -1,0 +1,12 @@
+C:\Users\Joel\Downloads\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Joel\Downloads\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Joel\Downloads\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\obj\Debug\HT1.csprojResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Joel\Desktop\Hoja de Trabajo 1\HT1\WindowsFormsApplication1\obj\Debug\HT1.csproj.GenerateResource.Cache
