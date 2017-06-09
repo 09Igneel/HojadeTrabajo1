@@ -88,5 +88,15 @@ namespace WindowsFormsApplication1
 
             Resultado.Text = "Resultado: " + invertida.ToString();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double num1 = Convert.ToDouble(in1.Text);
+            double num2 = Convert.ToDouble(in2.Text);
+            double num3 = Convert.ToDouble(in3.Text);
+
+            double res = (num3 * num2) / num1;
+            Resultado.Text = "El resultado es: " + Convert.ToString(res);
+        }
     }
 }
