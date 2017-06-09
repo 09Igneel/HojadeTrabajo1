@@ -75,5 +75,18 @@ namespace WindowsFormsApplication1
                 Resultado.Text = "Resultado: No Cumple";
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            String invertida = "";
+            String string1 = in1.Text + " " + in2.Text;
+
+            for (int i = string1.Length - 1; i >= 0; i--)
+            {
+                invertida = invertida + string1.Substring(i, 1);
+            }
+
+            Resultado.Text = "Resultado: " + invertida.ToString();
+        }
     }
 }
